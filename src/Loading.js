@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react'
+import './App.css';
 
-export default function Loading() {
-  return (
-    <div>Loading...</div>
+class Loader extends React.Component {
+  render() {
+      return (
+      <div className="loader">Loading...</div>
   );
+  }
 }
+
+export default Loader
